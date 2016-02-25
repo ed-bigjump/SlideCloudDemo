@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.slidecould.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>SlideCloudDemo</name>
-    <description>Demo application giving presentation advice</description>
+    <name>SlideCloud Demo</name>
+    <description>A simple application giving advice on how to improve your presentations</description>
     <author email="info@slidecloud.co.uk" href="http://www.slidecloud.co.uk">SlideCloud Team</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
