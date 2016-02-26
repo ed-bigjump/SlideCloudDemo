@@ -89,6 +89,7 @@ body {
 	background-color: #fff;
     background-image:url(../img/slidecloud-bg.png);
     background-size:contain;
+    background-repeat:no-repeat;
 	padding: 20px 40px;
 }
 
@@ -100,7 +101,7 @@ body {
 h1 {
     font-size:2.75rem;
     font-weight:normal;
-    margin:0px 0 20px 0;
+    margin:0px 0 40px 0;
     overflow:visible;
     padding:0px;
     text-align:center;
