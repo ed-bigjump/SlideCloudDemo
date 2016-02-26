@@ -41,6 +41,8 @@
 	<splash platform="android" qualifier="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
     <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
 	<splash platform="android" qualifier="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
+	<splash platform="android" qualifier="port-xxhdpi" src="www/res/screen/android/screen-xxhdpi-portrait.png" />
+	<splash platform="android" qualifier="land-xxhdpi" src="www/res/screen/android/screen-xxhdpi-landscape.png" />
     <access origin="*" />
     <engine name="android" spec="~5.1.0" />
 </widget>
