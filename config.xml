@@ -32,7 +32,7 @@
     <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
     <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
-	<splash src="splash.9.png" />
+	<splash src="splash.png" />
 	<splash platform="android" qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
 	<splash platform="android" qualifier="land-ldpi" src="www/res/screen/android/screen-ldpi-landscape.png" />
     <splash platform="android" qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
