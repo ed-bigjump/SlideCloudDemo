@@ -32,10 +32,15 @@
     <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
     <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
-	<gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+	<splash src="splash.png" />
+	<splash platform="android" qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+	<splash platform="android" qualifier="land-ldpi" src="www/res/screen/android/screen-ldpi-landscape.png" />
+    <splash platform="android" qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+	<splash platform="android" qualifier="land-mdpi" src="www/res/screen/android/screen-mdpi-landscape.png" />
+    <splash platform="android" qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+	<splash platform="android" qualifier="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+	<splash platform="android" qualifier="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
     <access origin="*" />
     <engine name="android" spec="~5.1.0" />
 </widget>
