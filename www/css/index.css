@@ -31,8 +31,19 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
+    background:#222;
 }
-
+.splash {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	z-index: 999;
+	display:block;
+    padding-top:50px;
+}
 
 .main-logo{
 	margin: 0 auto;display:block;
@@ -52,9 +63,10 @@ body {
 .grid-cell{
 	display:table-cell;
 	width: 33%;
-	height: 200px;
-	border: 1px solid black;
-	padding: 15px;
+	height: auto;
+	border: none;
+    background:none;
+    vertical-align:top;
 }
 
 .overlay{
@@ -70,11 +82,13 @@ body {
 
 .overlay-inner{
 	margin: auto;
-	margin-top: 300px;
+	margin-top: 100px;
 	width: 80%;
 	height: 40%;
 	border: 1px solid black;
 	background-color: #fff;
+    background-image:url(../img/slidecloud-bg.png);
+    background-size:contain;
 	padding: 20px 40px;
 }
 
@@ -84,14 +98,62 @@ body {
 }
 
 h1 {
-    font-size:44px;
+    font-size:1.5rem;
     font-weight:normal;
-    margin:0px;
+    margin:0px 0 20px 0;
     overflow:visible;
     padding:0px;
     text-align:center;
+    color:#ffffff;
 }
 
 h2{
-	font-size:32px;
+	font-size:1rem;
+    line-height:1;
 }
+
+/* color grid cells */
+.grid-cell .inner
+{
+    box-sizing:border-box;
+    background:#646464;
+    height: auto;
+    min-height:100px;
+    width:95% !important;
+    margin:5px 2.5%;
+	border: none;
+    border-radius:2px;
+	padding: 5px 5px;
+}
+.grid-cell .inner h2
+{
+    font-size:0.75rem !important;
+}
+.grid-cell .inner p
+{
+    font-size:0.75rem !important;
+}
+.grid-cell .inner .overlay-inner h2 {
+    font-size:1rem !important;
+}
+.grid-cell .inner .overlay-inner p {
+    font-size:1rem !important;
+}
+
+.grid-cell .inner h2 span{
+    display:block;
+    float:left;
+    border-radius:50%;
+    background:#222;
+    color:#fff;
+    padding:0.25rem 0.35rem;
+    margin:-4px 3px 40px 2px;
+    width:10%;
+    text-align:center;
+}
+.inner.sky{background:#40B3C8;}
+.inner.green{background:#6AB45D;}
+.inner.orange {background: #E17637;}
+.inner.red {background: #DF3E2E;}
+.inner.grey {background: #BABABA;}
+.inner.yellow {background: #FFC710;}

@@ -1,5 +1,5 @@
 $(function(){
-	$('.grid-cell').click(function(){		
+	$('.grid-cell .inner').click(function(){		
 		$(this).children('.overlay').show();
 	});
 	
