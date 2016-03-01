@@ -26,23 +26,12 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:1.5rem;
+    font-size:2rem;
     height:100%;
     margin:0px;
     padding:0px;
     width:100%;
     background:#222;
-}
-.splash {
-	position: absolute;
-	top:0;
-	left:0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255,255,255,1);
-	z-index: 999;
-	display:block;
-    padding-top:50px;
 }
 
 .main-logo{
@@ -99,7 +88,7 @@ body {
 }
 
 h1 {
-    font-size:2.75rem;
+    font-size:3rem;
     font-weight:normal;
     margin:0px 0 40px 0;
     overflow:visible;
@@ -109,7 +98,7 @@ h1 {
 }
 
 h2{
-	font-size:2rem;
+	font-size:2.5rem;
     line-height:1;
 }
 
@@ -119,7 +108,7 @@ h2{
     box-sizing:border-box;
     background:#646464;
     height: auto;
-    min-height:200px;
+    min-height:250px;
     width:95% !important;
     margin:5px 2.5%;
 	border: none;
@@ -128,17 +117,17 @@ h2{
 }
 .grid-cell .inner h2
 {
-    font-size:1.5rem !important;
+    font-size:2rem !important;
 }
 .grid-cell .inner p
 {
-    font-size:1.5rem !important;
+    font-size:2rem !important;
 }
 .grid-cell .inner .overlay-inner h2 {
-    font-size:2rem !important;
+    font-size:2.5rem !important;
 }
 .grid-cell .inner .overlay-inner p {
-    font-size:2rem !important;
+    font-size:2.5rem !important;
 }
 
 .grid-cell .inner h2 span{
@@ -148,7 +137,7 @@ h2{
     background:#222;
     color:#fff;
     padding:0.25rem 0.35rem;
-    margin:-4px 3px 40px 2px;
+    margin:-4px 3px 150px 2px;
     width:10%;
     text-align:center;
 }
