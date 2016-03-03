@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.slidecould.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="uk.co.slidecould.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>SlideCloud Demo</name>
     <description>A simple application giving advice on how to improve your presentations</description>
     <author email="info@slidecloud.co.uk" href="http://www.slidecloud.co.uk">SlideCloud Team</author>
